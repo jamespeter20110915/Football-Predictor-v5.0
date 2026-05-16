@@ -1,0 +1,34 @@
+# Data files (large)
+data/raw/
+data/processed/*.parquet
+data/processed/*.pkl
+data/processed/*.csv
+data/processed/*.json
+
+# Models (generated)
+models/*.json
+
+# Reports (generated)
+reports/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.claude/
